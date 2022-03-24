@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_2 {
+  border: 1px solid black;
+  width: 300px;
+  height: 96vh;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-fondo {
+  width: 300px;
+  height: 170px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondo {
+  width: 100%;
+}
+.camara1 {
+  background-color: #e7e4e4;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.foto-camara1 {
+  width: 80%;
+}
+.foto-perfil {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 120px;
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.perfil {
+  max-width: 200%;
+}
+.camara2 {
+  background-color: #e7e4e4;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.foto-camara2 {
+  width: 80%;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.button1 {
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button1::before {
+  content: ;
+}

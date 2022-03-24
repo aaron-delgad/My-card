@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .card {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        display: flex;
+        width: 300px;
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+
+      .imagen-fondo {
+        display: flex;
+        width: 300px;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+      }
+      .fondo {
+        width: 100%;
+      }
+      .nombre {
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+      }
+      .imagen-perfil {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 4px solid white;
+        position: absolute;
+        margin-top: 200px;
+        overflow: hidden;
+      }
+      .perfil {
+        width: 100%;
+      }
+      .container p {
+        margin-top: 75px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <div class="imagen-fondo">
+          <img class="fondo" src="/imagenes/bianca.jpg" alt="Fondo" />
+        </div>
+        <div class="imagen-perfil">
+          <img class="perfil" src="/imagenes/bianca2.jpg" alt="Perfil" />
+        </div>
+        <p class="nombre">Bianca Estrella Delgado Aguilar</p>
+      </div>
+    </div>
+  </body>
+</html>
